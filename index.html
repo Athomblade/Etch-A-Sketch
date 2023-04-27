@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-A-Sketch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="cubed"><h1 >Etch-A-Sketch</h1></div>
+
+<div id="body1">
+    <div id="header">
+        <button id="reset" onclick="resetTable()">Reset</button>
+        <button id="white" onclick="colorWhite()"> </button>
+        <button id="red" onclick="colorRed()"> </button>
+        <button id="blue" onclick="colorBlue()"></button>
+        <button id="pink" onclick="colorPink()"></button>
+        <button id="green" onclick="colorGreen()"></button>
+        <button id="random" onclick="rgbON()"></button>
+        <input type="color" id="color" oninput="colorChoose()">
+        <div class="sliderAndValue">
+            <input type="range" min="2" max="50" value="25" id="slider">
+            <div><p class="value">25</p></div>
+        </div>
+    </div>
+    <div id="backdiv">
+    <div id="container"> </div>
+   </div>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

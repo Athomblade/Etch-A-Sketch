@@ -1,0 +1,218 @@
+#body1{
+    display: grid;
+    grid-template-columns: 1rem  ;
+    gap: 1rem;
+    
+    justify-items: center;
+    justify-content: center;
+    background-color:transparent;
+}
+#header{
+   width: 800px;
+   height: 200px;
+    display: grid;
+    grid-template-columns:repeat(11, 5rem);
+    gap: 1rem;
+    align-items: center;
+    margin-top: 100px;
+}
+#theDivs{
+    
+    background-color: black;
+    border-radius: 10%;
+}
+
+#container > * {
+    transition: all 0.5s;
+}
+button:hover{
+    border-width: 10px;
+    
+}
+
+#container{
+    display: grid;
+    grid-template-columns:repeat(25, 1rem) ;
+    grid-template-rows: repeat(25, 1rem);
+    gap: 0.1rem;
+    
+}
+
+button{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    transition: all ease 0.5s;
+    border-image:2px;
+}
+
+#red{
+    background-color:red ;
+    color:red ;
+}
+
+#blue{
+    background-color: #0000ff;
+    color: #0000ff;
+}
+
+#pink{
+    background-color: #ff0066 ;
+    color: #ff0066 ;
+}
+
+#green{
+    background-color: #00cc00 ;
+    color: #00cc00;
+}
+
+#random{
+    background: linear-gradient(
+        90deg,
+        rgba(255, 0, 0, 1) 0%,
+        rgba(255, 154, 0, 1) 10%,
+        rgba(208, 222, 33, 1) 20%,
+        rgba(79, 220, 74, 1) 30%,
+        rgba(63, 218, 216, 1) 40%,
+        rgba(47, 201, 226, 1) 50%,
+        rgba(28, 127, 238, 1) 60%,
+        rgba(95, 21, 242, 1) 70%,
+        rgba(186, 12, 248, 1) 80%,
+        rgba(251, 7, 217, 1) 90%,
+        rgba(255, 0, 0, 1) 100%
+    );
+    text-align: center;
+}
+
+#backdiv{
+    padding: 2px;
+    background-color:rgba(0, 0, 0, 0.496);
+}
+
+input[type=range] {
+    height: 36px;
+    -webkit-appearance: none;
+    margin: 10px 0;
+    width: 150px;
+  }
+  input[type=range]:focus {
+    outline: none;
+  }
+  input[type=range]::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 30px;
+    cursor: pointer;
+    animate: 0.2s;
+    box-shadow: 4px 4px 4px #000000;
+    background: #A4A9A6;
+    border-radius: 50px;
+    border: 1px solid #000000;
+  }
+  input[type=range]::-webkit-slider-thumb {
+    box-shadow: 4px 4px 4px #000000;
+    border: 1px solid #000000;
+    height: 25px;
+    width: 50px;
+    border-radius: 50px;
+    background: #FFFFFF;
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: 1.5px;
+  }
+  input[type=range]:focus::-webkit-slider-runnable-track {
+    background: #A4A9A6;
+  }
+  input[type=range]::-moz-range-track {
+    width: 100%;
+    height: 30px;
+    cursor: pointer;
+    animate: 0.2s;
+    box-shadow: 4px 4px 4px #000000;
+    background: #A4A9A6;
+    border-radius: 50px;
+    border: 1px solid #000000;
+  }
+  input[type=range]::-moz-range-thumb {
+    box-shadow: 4px 4px 4px #000000;
+    border: 1px solid #000000;
+    height: 25px;
+    width: 50px;
+    border-radius: 50px;
+    background: #FFFFFF;
+    cursor: pointer;
+  }
+  input[type=range]::-ms-track {
+    width: 100%;
+    height: 30px;
+    cursor: pointer;
+    animate: 0.2s;
+    background: transparent;
+    border-color: transparent;
+    color: transparent;
+  }
+  input[type=range]::-ms-fill-lower {
+    background: #A4A9A6;
+    border: 1px solid #000000;
+    border-radius: 100px;
+    box-shadow: 4px 4px 4px #000000;
+  }
+  input[type=range]::-ms-fill-upper {
+    background: #A4A9A6;
+    border: 1px solid #000000;
+    border-radius: 100px;
+    box-shadow: 4px 4px 4px #000000;
+  }
+  input[type=range]::-ms-thumb {
+    margin-top: 1px;
+    box-shadow: 4px 4px 4px #000000;
+    border: 1px solid #000000;
+    height: 25px;
+    width: 50px;
+    border-radius: 50px;
+    background: #FFFFFF;
+    cursor: pointer;
+  }
+  input[type=range]:focus::-ms-fill-lower {
+    background: #A4A9A6;
+  }
+  input[type=range]:focus::-ms-fill-upper {
+    background: #A4A9A6;
+  }
+  
+  #color {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-color: transparent;
+    width: 80px;
+    height: 80px;
+    border: none;
+    cursor: pointer;
+  }
+  #color::-webkit-color-swatch {
+    border-radius: 50%;
+    border: 7px solid #000000;
+  }
+  #color::-moz-color-swatch {
+    border-radius: 50%;
+    border: 7px solid #000000;
+  }
+
+  .value{
+    text-align: center;
+    padding-left: 66px;
+    margin-top: 0;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .sliderAndValue{
+    margin-top: 30px;
+  }
+
+  h1{
+    text-align: center;
+    font-size: 150px;
+    margin: 0;
+  }
+
