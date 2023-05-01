@@ -275,3 +275,10 @@ animation: anim 20s ease infinite;
 }
 
 
+#endpage{
+  margin-top: 15px;
+  text-align: center;
+  font-weight: 700;
+  color:#000000;
+  font-size: large;
+}
